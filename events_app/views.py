@@ -25,3 +25,4 @@ class GuestsDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = GuestSerializer
 
 print("hello")
+#add comment
