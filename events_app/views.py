@@ -23,3 +23,5 @@ class GuestsList(generics.ListCreateAPIView):
 class GuestsDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Guest.objects.all()
     serializer_class = GuestSerializer
+
+print("hello")
